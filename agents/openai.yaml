@@ -1,0 +1,18 @@
+version: 1.0.0
+kind: openai
+entry: SKILL.md
+description: "饭搭子：免费选饭助手，信息收集→餐厅推荐→预定协助一条龙"
+capabilities:
+  - restaurant-search
+  - amap-mcp
+  - yelp-google-maps
+  - booking-assistance
+mcp:
+  optional:
+    amap:
+      url: https://mcp.amap.com/sse?key=YOUR_AMAP_KEY
+      note: 高德开放平台免费申请 https://lbs.amap.com/
+    hasdata:
+      url: https://mcp.hasdata.com/mcp
+      auth: x-api-key
+      note: HasData 官网免费注册，每月1000免费credits
