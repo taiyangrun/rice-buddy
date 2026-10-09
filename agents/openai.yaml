@@ -1,7 +1,7 @@
-version: 1.0.0
+version: 1.0.3
 kind: openai
 entry: SKILL.md
-description: "饭搭子：免费选饭助手，信息收集→餐厅推荐→预定协助一条龙"
+description: "吃饭不踩雷：免费选饭助手，信息收集→餐厅推荐→预定协助一条龙"
 capabilities:
   - restaurant-search
   - amap-mcp
